@@ -86,7 +86,7 @@ import Slider from "./components/Slider.vue";
 .header {
   width: 100%;
   height: 20vh;
-  background-color: #f1f1f1;
+  background-color: #fdf9f9;
   display: flex;
   align-items: center;
   justify-content: center;
