@@ -202,13 +202,12 @@ import Slider from "./components/Slider.vue";
 
 .fancyContent {
   padding: 8px;
-  border-collapse: collapse;
-  border-radius: 8px;
-  color: rgb(221, 220, 220);
+  color: rgb(60, 60, 60);
   font-size: 20px;
   font-weight: 700;
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+ box-shadow: 0 0 3px rgb(211, 206, 206);
+ border-bottom: 1px solid #ccc;
+  
 }
 
 @media screen and (max-width: 1200px) {
