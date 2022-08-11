@@ -193,7 +193,6 @@ import Slider from "./components/Slider.vue";
 }
 
 .sliderContainer {
-  padding: 2rem;
   max-width: 800px;
 }
 
@@ -246,7 +245,7 @@ import Slider from "./components/Slider.vue";
   }
 
   .fancyHeading {
-  font-size: 14px;
+    font-size: 14px;
   }
 }
 </style>
