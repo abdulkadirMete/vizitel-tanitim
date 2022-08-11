@@ -18,13 +18,6 @@ import Slider from "./components/Slider.vue";
           Televizyon yayınlarını geriye alın,istediğiniz programı istediğiniz
           saatte izleyin, hd destekli kanalları izleyin!
         </p>
-
-        <h1 class="fancyHeading">
-          <span class="fancyContent">Desteklenen Platformlar</span>
-        </h1>
-        <div class="sliderContainer">
-          <Slider />
-        </div>
       </div>
       <div class="right">
         <img class="heroImg" src="./assets/images/banner.png" alt="" />
@@ -192,9 +185,9 @@ import Slider from "./components/Slider.vue";
   justify-content: center;
 }
 
-.sliderContainer {
+/* .sliderContainer {
   max-width: 800px;
-}
+} */
 
 .shareImg {
   width: 200px;
@@ -235,9 +228,9 @@ import Slider from "./components/Slider.vue";
     font-size: 16px;
   }
 
-  .sliderContainer {
+  /* .sliderContainer {
     padding: 0;
-  }
+  } */
 
   .buttonGroup {
     column-gap: 1rem;
