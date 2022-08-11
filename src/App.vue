@@ -247,5 +247,9 @@ import Slider from "./components/Slider.vue";
   .fancyHeading {
     font-size: 14px;
   }
+
+  .logo {
+  width: 100px;
+  height: 100px;
 }
 </style>
