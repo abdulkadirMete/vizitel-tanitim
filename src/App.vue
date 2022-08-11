@@ -236,9 +236,16 @@ import Slider from "./components/Slider.vue";
   }
 
   .sliderContainer {
-  padding: 1rem;
-  max-width: 800px;
-}
+    padding: 0;
+  }
 
+  .buttonGroup {
+    column-gap: 1rem;
+    padding: 1rem 1rem;
+  }
+
+  .fancyHeading {
+  font-size: 14px;
+  }
 }
 </style>
