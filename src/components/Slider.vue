@@ -86,13 +86,13 @@ export default {
 
 @media screen and (max-width: 720px) {
   .brand {
-    width: 150px;
+    width: 130px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .brand {
-    width: 100px;
+    width: 90px;
   }
 }
 </style>
