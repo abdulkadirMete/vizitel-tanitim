@@ -234,5 +234,11 @@ import Slider from "./components/Slider.vue";
     margin: 1rem;
     font-size: 16px;
   }
+
+  .sliderContainer {
+  padding: 1rem;
+  max-width: 800px;
+}
+
 }
 </style>
