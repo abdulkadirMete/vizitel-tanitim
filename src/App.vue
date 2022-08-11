@@ -195,7 +195,6 @@ import Slider from "./components/Slider.vue";
 .sliderContainer {
   padding: 2rem;
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .shareImg {
@@ -207,14 +206,33 @@ import Slider from "./components/Slider.vue";
   color: rgb(60, 60, 60);
   font-size: 20px;
   font-weight: 700;
- box-shadow: 0 0 3px rgb(211, 206, 206);
- border-bottom: 1px solid #ccc;
-  
+  box-shadow: 0 0 3px rgb(211, 206, 206);
+  border-bottom: 1px solid #ccc;
 }
 
 @media screen and (max-width: 1200px) {
   .info {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .shareImg {
+    width: 100px;
+  }
+
+  .heroImg {
+    width: 300px;
+  }
+
+  .heading {
+    margin: 1rem;
+    font-size: 40px;
+  }
+
+  .desc {
+    margin: 1rem;
+    font-size: 16px;
   }
 }
 </style>

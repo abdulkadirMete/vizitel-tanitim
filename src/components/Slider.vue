@@ -84,6 +84,12 @@ export default {
   padding-top: 8px !important;
 }
 
+@media screen and (max-width: 720px) {
+  .brand {
+    width: 150px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .brand {
     width: 100px;
