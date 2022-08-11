@@ -15,6 +15,21 @@
       <img class="brand" src="../assets/images/samsung.png" alt="brand" />
     </slide>
 
+         <slide :key="4">
+      <img class="brand" src="../assets/images/android.png" alt="brand" />
+    </slide>
+
+   <slide :key="5">
+      <img class="brand" src="../assets/images/ios.png" alt="brand" />
+    </slide>
+
+     <slide :key="6">
+      <img class="brand" src="../assets/images/tvos.png" alt="brand" />
+    </slide>
+
+
+ 
+
     <template #addons>
       <navigation />
       <pagination />
@@ -49,6 +64,7 @@ export default {
   width: 150px;
   height: 150px;
   object-fit: contain;
+  
 }
 
 .carousel__prev,

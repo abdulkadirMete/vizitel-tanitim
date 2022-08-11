@@ -20,7 +20,7 @@ import Slider from "./components/Slider.vue";
         </p>
 
         <h1 class="fancyHeading">
-          <span class="fancyContent">İş Ortaklarımız</span>
+          <span class="fancyContent">Desteklenen Platformlar</span>
         </h1>
         <div class="sliderContainer">
           <Slider />
@@ -194,6 +194,8 @@ import Slider from "./components/Slider.vue";
 
 .sliderContainer {
   padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .shareImg {
