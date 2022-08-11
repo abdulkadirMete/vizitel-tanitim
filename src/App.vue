@@ -228,6 +228,7 @@ import Slider from "./components/Slider.vue";
   .heading {
     margin: 1rem;
     font-size: 25px;
+    text-transform: uppercase;
   }
 
   .desc {
